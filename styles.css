@@ -1,0 +1,84 @@
+/* styles.css */
+
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    background: linear-gradient(135deg, #35424a, #2c3e50);
+}
+
+.profile-pic {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    border: 4px solid #ffffff; /* White border around the profile picture */
+}
+
+.tagline {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.content {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h2 {
+    color: #35424a;
+    border-bottom: 2px solid #35424a;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+ul.list-group {
+    margin-bottom: 20px;
+}
+
+ul.list-group-item {
+    background: #e7e7e7; /* Light gray background for list items */
+    transition: background 0.3s;
+}
+
+ul.list-group-item:hover {
+    background: #d1d1d1; /* Darker gray on hover */
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+.logo{
+    border-radius: 50%;
+    border: solid;
+    width: 40px;
+}
+
+button {
+    padding: 10px 15px; /* Padding inside the button */
+    color: white; /* White text */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 200px;
+    height: 60px;
+}
+
+.socials{
+    width: 40px;
+    height: 40px;
+    align-content: baseline;
+}
